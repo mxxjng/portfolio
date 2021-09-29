@@ -1,0 +1,31 @@
+{
+  "name": "max-jung-portfolio-page",
+  "version": "0.1.0",
+  "private": false,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "babel-plugin-styled-components": "^1.13.2",
+    "framer-motion": "^4.1.17",
+    "next": "10.0.6",
+    "react": "17.0.1",
+    "react-chartjs-2": "^2.9.0",
+    "react-dom": "17.0.1",
+    "react-transition-group": "^4.4.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@types/node": "^14.14.25",
+    "@types/react": "^17.0.1",
+    "autoprefixer": "^10.2.5",
+    "babel-loader": "^8.2.2",
+    "postcss": "^8.2.8",
+    "tailwindcss": "^2.0.4",
+    "typescript": "^4.1.3"
+  }
+}
