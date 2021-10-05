@@ -8,6 +8,19 @@
     line-height: 120% !important;
 }
 
+.gradient-button-border {
+    position: relative;
+    padding: 1px;
+    overflow: hidden;
+    background: linear-gradient(
+            121.05deg,
+            #02feed -1.61%,
+            #7497fa 49.08%,
+            #9877fd 97.36%
+        ),
+        #c4c4c4;
+}
+
 .nav {
     background-color: rgba(37, 40, 50, 0);
     transition: 0.2s;

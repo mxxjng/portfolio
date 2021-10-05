@@ -2,6 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Button from "../components/Button";
 import Layout from "../components/Layout";
+import Header from "../components/Header";
 import { useEffect } from "react";
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
             <div className="">
                 <Layout>
                     <div className="max-w-7xl mx-auto px-4 ">
+                        <Header />
                         <div className="mt-20 max-w-3xl">
                             <p className="text-primary text-sm">MX SPORTS</p>
                             <h1 className="text-3xl md:text-6xl text-headline font-headline my-2 hl">

@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 
 import MotionDiv from "../MotionDiv/MotionDiv";
 import LogoIconMobile from "../Icons/LogoIconMobile";
+import CloseIcon from "../Icons/CloseIcon";
 
 const variants = {
     open: {
@@ -62,9 +63,9 @@ const SideBar: React.FC<SideBarProps> = ({ isOpen, navList, closeSideBar }) => {
                 transition={{ duration: 0.4 }}
             >
                 <div>
-                    <p className="py-2 text-right" onClick={closeSideBar}>
-                        close
-                    </p>
+                    <div className="flex justify-end">
+                        <CloseIcon handleClick={closeSideBar} />
+                    </div>
                     <div className="p-8">
                         <div className="mb-4">
                             <LogoIconMobile />

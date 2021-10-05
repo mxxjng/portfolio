@@ -7,8 +7,8 @@ import React, {
 import { SpinnerSmall } from "./SpinnerSmall";
 
 const sizeClassNames = {
-    big: "py-4 px-8 text-md rounded-md",
-    small: "px-2 py-1 text-sm rounded-md",
+    big: "w-full py-4 px-8 text-md rounded-md",
+    small: "w-full px-2 py-1 text-sm rounded-md",
     tiny: "px-1 text-sm rounded-md",
     full: "w-full md:w-full rounded-md",
 };
@@ -44,7 +44,7 @@ const Button: React.FC<ButtonProps> = ({
     return (
         <button
             disabled={disabled || loading}
-            className={`w-full md:w-auto outline-none mb-2 px-4 py-2 rounded-md 
+            className={` md:w-auto outline-none mb-2 px-4 py-2 rounded-md 
             font-headline ${colorClassNames[color]} ${sizeClassNames[size]}
             whitespace-nowrap flex items-center justify-center ${className}`}
             {...props}
