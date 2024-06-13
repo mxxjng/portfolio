@@ -18,7 +18,7 @@ const LanguageSwitcher = () => {
 
   return (
     <Select onValueChange={switchLanguage} defaultValue={router.locale}>
-      <SelectTrigger className="w-[180px]">
+      <SelectTrigger className="w-[100px]">
         <SelectValue placeholder="Language" />
       </SelectTrigger>
       <SelectContent>
