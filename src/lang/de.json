@@ -1,5 +1,14 @@
 {
   "main": {
-    "title": "Hallo, Welt!"
+    "title": "Hallo, Welt!",
+    "about": {
+      "title": "Über mich",
+      "content": {
+        "firstParagraph": { "value": "Dies ist die About-Seite." },
+        "secondParagraph": {
+          "value": "Das ist eine gute Stelle für Euch und zeigt Euch Eure Faehigkeiten an."
+        }
+      }
+    }
   }
 }

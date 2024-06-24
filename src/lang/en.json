@@ -1,5 +1,12 @@
 {
   "main": {
-    "title": "Hello, World!"
+    "title": "Hello, World!",
+    "about": {
+      "title": "About me",
+      "content": {
+        "firstParagraph": { "value": "This is the About page." },
+        "secondParagraph": { "value": "This is...." }
+      }
+    }
   }
 }
